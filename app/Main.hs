@@ -14,5 +14,8 @@ bar x = (x 1) + 1
 printBar :: IO ()
 printBar = print $ bar (\x -> x + 1)
 
+typeK :: (Bloder a, Show a) => a -> IO ()
+typeK a = print $ bloder a
+
 main :: IO ()
-main = print (bloder (1 :: Int))
+main = typeK(1 :: Int)
