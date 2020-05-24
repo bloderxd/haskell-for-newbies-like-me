@@ -1,4 +1,4 @@
-module ExTypeClass where
+module BloderTypeClass where
 
 import Lib
 

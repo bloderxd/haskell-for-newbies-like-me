@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6119ed9c7a0683af21e9cb9a38f71a322c63c33c36067d9b824743f3bdff4e2c
+-- hash: 98924198f59eb17094482473dc00c8c866e8c7422b4c465fb75aae09cf8fe114
 
 name:           hello-world-haskell
 version:        0.1.0.0
@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      ExTypeClass
+      BloderTypeClass
       Lib
   other-modules:
       Paths_hello_world_haskell

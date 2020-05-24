@@ -1,7 +1,7 @@
 module Main where
 
 import Lib
-import ExTypeClass
+import BloderTypeClass
 
 foo :: Int -> Result Int
 foo n | n < 1 = Error
